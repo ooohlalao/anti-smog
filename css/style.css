@@ -8,13 +8,11 @@
 a.readmore:link, 
 a.readmore:visited { 
 opacity:0.5;
-color:#F00; 
 text-decoration:underline; 
 } 
 a.readmore:hover, 
 a.readmore:active { 
 opacity:1;
-color:#FFF; 
 text-decoration:none; 
 } 
 
@@ -32,7 +30,17 @@ text-decoration:none;
 	margin-right:auto;
 	margin-left:auto;
 	width:70%;
-	opacity:0.75;
+}
+
+h1{
+	font-size:200%;
+	font-family:Tahoma, Geneva, sans-serif
+	color:#00000;
+	font-weight:bold;
+	padding-bottom:3%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
 }
 
 .main_container{
@@ -71,6 +79,7 @@ text-decoration:none;
 	-webkit-box-shadow: inset 0px 6px 5px 0px rgba(0,0,0,1);
     -moz-box-shadow: inset 0px 6px 5px 0px rgba(0,0,0,1);
     box-shadow: inset 0px 6px 5px 0px rgba(0,0,0,1);
+	background-color:rgba(0, 0,0, 0.75);
 }
 
 .intro_text{
@@ -81,8 +90,7 @@ text-decoration:none;
 	padding-right:5em;
 	padding-top:1.2em;
 	padding-bottom:1.2em;
-	opacity: 0.8;
-	color:white;
+	color:rgba(255, 255, 255,1);
 }
 
 .main_text a{
@@ -275,13 +283,14 @@ nav.menubar ul li a:hover {
 
 .home_new{
 	margin-top:2%;
+	background-color:rgba(255, 255, 255, 0.1);
     font-family:Tahoma, Geneva, sans-serif;
 	line-height:1.5em;
-	font-size:1em;
-	padding-left:6%;
-	padding-right:6%;
-	padding-top:4%;
-	padding-bottom:4%;
-	background-color:white;
+	font-size:100%;
+	padding-left:10%;
+	padding-right:10%;
+	padding-top:5%;
+	padding-bottom:5%;
+	background-color: rgba(255, 255, 255, 0.6);
 	color:black;
 }
