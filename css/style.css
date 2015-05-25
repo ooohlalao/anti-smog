@@ -26,6 +26,46 @@ text-decoration:none;
 	background-attachment: fixed;
 }
 
+.background_2{
+	background-image:url(../images/img2.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+}
+
+.background_3{
+	background-image:url(../images/img3.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+}
+
+.background_4{
+	background-image:url(../images/img4.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+}
+
+.background_News{
+	background-image:url(../images/background.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+}
+
 .padding_property{
 	margin-right:auto;
 	margin-left:auto;
@@ -56,11 +96,30 @@ h2{
 	width:100%;
 	height:auto;
 	margin:auto;
-	background-color:rgba(0,0,0,0.4);
+	background-color:rgba(0,0,0,0.6);
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+h3{
+	font-size:200%;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#00000;
+	font-weight:bold;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	margin-top:7%;
+}
+
+h4{
+	font-size:100%;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#00000;
+	font-weight:bold;
+	display:inline;
 }
 
 .pic_minibar{
@@ -94,7 +153,7 @@ h2{
 .intro_text{
 	font-family:Tahoma, Geneva, sans-serif;
 	line-height:1.5em;
-	font-size:1em;
+	font-size:100%;
 	padding-left:5em;
 	padding-right:5em;
 	padding-top:1.2em;
@@ -300,6 +359,50 @@ nav.menubar ul li a:hover {
 	padding-right:10%;
 	padding-top:5%;
 	padding-bottom:5%;
-	background-color: rgba(255, 255, 255, 0.6);
+	background-color: rgba(255, 255, 255, 0.65);
 	color:black;
+}
+
+.article_new{
+    font-family:Tahoma, Geneva, sans-serif;
+	line-height:1.5em;
+	font-size:95%;
+	padding-left:10%;
+	padding-right:10%;
+	padding-top:2%;
+	padding-bottom:5%;
+	background-color: rgba(255, 255, 255, 0.7);
+	color:black;
+	-webkit-box-shadow: inset 0px 5px 4px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: inset 0px 5px 4px 0px rgba(0,0,0,0.4);
+    box-shadow: inset 0px 5px 4px 0px rgba(0,0,0,0.4);
+}
+
+.article_padding_property{
+	width:60%;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.News_new{
+	font-size:95%;
+	padding-top:6%;
+	padding-bottom:6%;
+	padding-left:8%;
+	padding-right:8%;
+	background-color: rgba(255, 255, 255, 0.8);
+	color:black;
+	-webkit-box-shadow: inset 0px 5px 4px 0px rgba(0,0,0,0.7);
+    -moz-box-shadow: inset 0px 5px 4px 0px rgba(0,0,0,0.4);
+    box-shadow: inset 0px 5px 4px 0px rgba(0,0,0,0.4);
+}
+
+.News_container{
+	padding:2%;
+	margin-left:auto;
+	margin-right:auto;
+	width:25%;
+	height:auto;
+	display:inline-block;
+	background-color:green;
 }
