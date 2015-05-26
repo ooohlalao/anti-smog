@@ -26,44 +26,23 @@ text-decoration:none;
 	background-attachment: fixed;
 }
 
-.background_2{
+.img2{
 	background-image:url(../images/img2.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-	background-repeat:no-repeat;
-	background-attachment: fixed;
 }
 
-.background_3{
+.img3{
 	background-image:url(../images/img3.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-	background-repeat:no-repeat;
-	background-attachment: fixed;
 }
 
-.background_4{
+.img4{
 	background-image:url(../images/img4.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-	background-repeat:no-repeat;
-	background-attachment: fixed;
+}
+.img5{
+	background-image:url(../images/News1.jpg);
 }
 
-.background_News{
+.imgNews{
 	background-image:url(../images/background.png);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-	background-repeat:no-repeat;
-	background-attachment: fixed;
 }
 
 .padding_property{
@@ -120,6 +99,13 @@ h4{
 	color:#00000;
 	font-weight:bold;
 	display:inline;
+}
+
+h5{
+	font-size:130%;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#00000;
+	font-weight:bold;
 }
 
 .pic_minibar{
@@ -224,6 +210,10 @@ h4{
 	background-size:cover;
 }
 
+.image_container>a>img{
+	width:200%;
+}
+
 .arrow{
 	width:5em;
 	height:auto;
@@ -266,6 +256,17 @@ h4{
 	opacity:1;
 	text-decoration:none;
 	color:white;
+}
+
+.app_add{
+	width:100%;
+	height:auto;
+	background-color:rgba(255,255,255,0.92);
+	padding-top:0.5%;
+	padding-bottom:0.5%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
 }
 
 .text_headerbar{	
@@ -357,7 +358,7 @@ nav.menubar ul li a:hover {
 	font-size:100%;
 	padding-left:10%;
 	padding-right:10%;
-	padding-top:5%;
+	padding-top:3%;
 	padding-bottom:5%;
 	background-color: rgba(255, 255, 255, 0.65);
 	color:black;
@@ -386,23 +387,25 @@ nav.menubar ul li a:hover {
 
 .News_new{
 	font-size:95%;
-	padding-top:6%;
-	padding-bottom:6%;
+	padding-top:0.5em;
+	padding-bottom:0.9em;
 	padding-left:8%;
 	padding-right:8%;
 	background-color: rgba(255, 255, 255, 0.8);
 	color:black;
-	-webkit-box-shadow: inset 0px 5px 4px 0px rgba(0,0,0,0.7);
-    -moz-box-shadow: inset 0px 5px 4px 0px rgba(0,0,0,0.4);
-    box-shadow: inset 0px 5px 4px 0px rgba(0,0,0,0.4);
+	overflow: hidden;
 }
 
 .News_container{
-	padding:2%;
-	margin-left:auto;
-	margin-right:auto;
-	width:25%;
-	height:auto;
-	display:inline-block;
-	background-color:green;
+	width:60%;
+	height:21%;
+	float:right;
+    padding-left:3%;
+	padding-right:3%;
+	padding-top:4%;
+	padding-bottom:3%;
+	background-color:#FFF;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
