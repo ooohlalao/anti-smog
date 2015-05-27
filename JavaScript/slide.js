@@ -10,7 +10,7 @@ function changePicture(direction)
 {
 	var bground=document.getElementById('background');
 	var foreground=document.getElementById('imag');
-	var picMinibar=document.getElementById('pic_minibar');
+	var picMinibar=document.getElementById('pic_minibar')
 	var intro_text=document.getElementById('intro_text');
 	var maintext=document.getElementById('maintext');
     var imgs = foreground.getElementsByTagName('img');
