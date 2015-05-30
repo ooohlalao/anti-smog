@@ -35,7 +35,7 @@ text-decoration:none;
 }
 
 .img4{
-	background-image:url(../images/img4.jpg);
+	background-image:url(../images/Product_bkg.jpg);
 }
 .img5{
 	background-image:url(../images/News1.jpg);
@@ -112,7 +112,7 @@ h4{
 h5 a{
 	font-size:160%;
 	font-family:Tahoma, Geneva, sans-serif;
-	color:#00000;
+	color:#000;
 	font-weight:bold;
 	text-decoration:none;
 }
@@ -421,7 +421,6 @@ nav.menubar ul li a:hover {
 	background-color: rgba(255, 255, 255, 0.8);
 	color:black;
 	overflow: hidden;
-	
 }
 
 .News_container{
@@ -473,3 +472,18 @@ nav.menubar ul li a:hover {
 	font-size:95%;
 }
 
+td img{
+    width:30em;
+	height:30em;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+table.mask img{
+	width:30em;
+	height:20em;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
