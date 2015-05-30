@@ -27,45 +27,47 @@
 			eventLimit: true, // allow "more" link when too many events
 			events: [
 				{
-					title: '"Smog Beijing" Photography Exhibition',
-					start: '2015-05-11',
-					end: '2015-05-16',
+					title: '"Beijing: Now and Then" Photography Exhibition',
+					start: '2015-06-11',
+					end: '2015-06-16',
 					url:'#pex'
 				},
 
 				{
 					title: 'Exb Start',
-					start: '2015-05-11T10:30:00',
+					start: '2015-06-11T10:30:00',
 				},
 				{
 					title: 'Exb End',
-					start: '2015-05-15T17:30:00',
+					start: '2015-06-15T17:30:00',
 				},
 				{
 					title: '"Breathing Free" Smog Safty Presentation',
-					start: '2015-05-18',
-					end: '2015-05-23',
+					start: '2015-06-18',
+					end: '2015-06-23',
+					url:'#pex2'
 				},
 				{
 					title: 'Presnt ST',
-					start: '2015-05-18T17:30:00',
+					start: '2015-06-18T10:30:00',
 				},
 				{
 					title: 'Presnt END',
-					start: '2015-05-22T10:30:00',
+					start: '2015-06-22T17:30:00',
 				},
 				{
-					title: '"Anti-Smog" cycling activity',
-					start: '2015-05-28',
-					end: '2015-05-30',
+					title: '"Anti-Smog" cycling race',
+					start: '2015-06-27',
+					end: '2015-06-29',
+					url:'#pex3'
 				},
 				{
 					title: 'Start',
-					start: '2015-05-28T10:30:00',
+					start: '2015-06-27T10:30:00',
 				},
 				{
 					title: 'End',
-					start: '2015-05-29T17:30:00',
+					start: '2015-06-28T17:30:00',
 				},
 			]
 		});
