@@ -112,7 +112,7 @@ h4{
 h5 a{
 	font-size:160%;
 	font-family:Tahoma, Geneva, sans-serif;
-	color:#00000;
+	color:#000;
 	font-weight:bold;
 	text-decoration:none;
 }
@@ -421,7 +421,6 @@ nav.menubar ul li a:hover {
 	background-color: rgba(255, 255, 255, 0.8);
 	color:black;
 	overflow: hidden;
-	
 }
 
 .News_container{
