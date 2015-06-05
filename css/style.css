@@ -487,3 +487,9 @@ table.mask img{
 	margin-right:auto;
 	text-align:center;
 }
+
+ #goToTop {
+      position: fixed;
+      bottom: 20px;
+      right: 10%;
+   }
